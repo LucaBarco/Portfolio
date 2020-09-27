@@ -1,79 +1,0 @@
-Dependencies for Project 'sample', Target 'Target 1': (DO NOT MODIFY !)
-CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
-F (.\startup_LPC17xx.s)(0x4CCAADFA)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include"--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1"--list .\startup_lpc17xx.lst --xref -o .\startup_lpc17xx.o --depend .\startup_lpc17xx.d)
-F (.\sample.c)(0x5E170576)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\sample.o --omf_browse .\sample.crf --depend .\sample.d)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x58493F92)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58493F92)
-I (GLCD/GLCD.h)(0x5E170FB7)
-I (TouchPanel/TouchPanel.h)(0x5E131400)
-I (timer/timer.h)(0x5C18CB60)
-F (.\core_cm3.c)(0x4AC99CCC)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\core_cm3.o --omf_browse .\core_cm3.crf --depend .\core_cm3.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
-F (.\system_LPC17xx.c)(0x54242018)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\system_lpc17xx.o --omf_browse .\system_lpc17xx.crf --depend .\system_lpc17xx.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x58493F92)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58493F92)
-F (.\GLCD\AsciiLib.c)(0x4CEFE446)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\asciilib.o --omf_browse .\asciilib.crf --depend .\asciilib.d)
-I (GLCD\AsciiLib.h)(0x4CEFE47F)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B3488)
-F (.\GLCD\AsciiLib.h)(0x4CEFE47F)()
-F (.\GLCD\GLCD.c)(0x5E171260)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\glcd.o --omf_browse .\glcd.crf --depend .\glcd.d)
-I (GLCD\GLCD.h)(0x5E170FB7)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x58493F92)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58493F92)
-I (GLCD\AsciiLib.h)(0x4CEFE47F)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B3488)
-F (.\GLCD\GLCD.h)(0x5E170FB7)()
-F (.\TouchPanel\TouchPanel.c)(0x5E13A392)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\touchpanel.o --omf_browse .\touchpanel.crf --depend .\touchpanel.d)
-I (TouchPanel\../GLCD/GLCD.h)(0x5E170FB7)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\LPC17xx.h)(0x58493F92)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58493F92)
-I (TouchPanel\../TouchPanel/TouchPanel.h)(0x5E131400)
-F (.\TouchPanel\TouchPanel.h)(0x5E131400)()
-F (.\timer\IRQ_timer.c)(0x5E171CEB)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\irq_timer.o --omf_browse .\irq_timer.crf --depend .\irq_timer.d)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B3488)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\lpc17xx.h)(0x58493F92)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58493F92)
-I (timer\timer.h)(0x5C18CB60)
-I (timer\../GLCD/GLCD.h)(0x5E170FB7)
-I (timer\../TouchPanel/TouchPanel.h)(0x5E131400)
-F (.\timer\lib_timer.c)(0x5C295365)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\RTE\_Target_1-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include"-I"C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include"-D__UVISION_VERSION="529" -D_RTE_ -DLPC175x_6x-o .\lib_timer.o --omf_browse .\lib_timer.crf --depend .\lib_timer.d)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\lpc17xx.h)(0x58493F92)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\core_cm3.h)(0x5D25F326)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B3488)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_version.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5D25F326)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\Core\Include\mpu_armv7.h)(0x5C8FB044)
-I (C:\Users\Luca Barco\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.6.0\Device\Include\system_LPC17xx.h)(0x58493F92)
-I (timer\timer.h)(0x5C18CB60)
-F (.\timer\timer.h)(0x5C18CB60)()
