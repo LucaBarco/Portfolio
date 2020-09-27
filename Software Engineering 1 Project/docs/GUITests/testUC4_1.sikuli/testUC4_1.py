@@ -1,0 +1,22 @@
+click("1591019418185.png")
+click("1591036894868.png")
+type("1591048946658.png", "admin")
+type("1591048939028.png", "admin@ezgas.com")
+click("1591049894214.png")
+click("1591049923425.png")
+for n in range(20):
+    type(Key.DOWN)
+type("1591054589943.png", "ENI")
+type("1591054606023.png", "Corso Duca degli Abruzzi to")
+click("turin.png")
+#type("1591054800278.png", "45.062683")
+#type("1591054809480.png", "7.662480")
+click("1591054838028.png")
+click("1591054849440.png")
+click("1592950082315.png")
+for n in range(5):
+    type(Key.DOWN)
+click("1591054889192.png")
+for n in range(10):
+    type(Key.DOWN)
+find("1591055844990.png")

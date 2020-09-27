@@ -1,0 +1,5 @@
+1 5 d 7.2 luca
+2 6 e 9.8 marco
+14 5 f 10.35 matteo
+8 9 r 78.3 silvia
+6 58 9.21 marta

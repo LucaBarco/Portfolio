@@ -1,0 +1,3 @@
+[0403/114710.934:ERROR:process_info.cc(329)] VirtualQueryEx: Accesso negato. (0x5)
+[0403/114710.936:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0403/114710.937:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: Tentativo di accesso a un processo in fase di chiusura. (0xc000010a)

@@ -1,0 +1,11 @@
+
+	Nome:Francesco 	Cognome:Rossi 	Data di nascita: 10/07/2000
+	Nome:Marco 	Cognome:Verdi 	Data di nascita: 02/12/1999
+	Nome:Valeria 	Cognome:Bianchi 	Data di nascita: 20/02/1997
+	Nome:Andrea 	Cognome:Neri 	Data di nascita: 21/06/1995
+	Nome:Sara 	Cognome:Verdi 	Data di nascita: 11/12/2003
+	Nome:Antonio 	Cognome:Rossi 	Data di nascita: 11/12/2008
+	Nome:Simone 	Cognome:Milano 	Data di nascita: 12/11/2003
+	Nome:Valentina 	Cognome:Rossi 	Data di nascita: 11/12/2003
+	Nome:Nikolai 	Cognome:Pavlov 	Data di nascita: 20/06/1999
+	Nome:Samanta 	Cognome:Verdi 	Data di nascita: 01/04/1996

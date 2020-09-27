@@ -1,0 +1,1 @@
+n tick totali / n tick per cc

@@ -1,0 +1,7 @@
+click("1591019418185.png")
+click("1591036894868.png")
+click("1591036918581.png")
+type("1591048926238.png", "FAKE USER")
+type("1591048939028.png", "spam.com")
+type("1591048946658.png", "1m@BOT")
+find("1591049686474.png")

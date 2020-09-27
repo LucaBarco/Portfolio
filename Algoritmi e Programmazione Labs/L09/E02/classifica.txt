@@ -1,0 +1,8 @@
+TheDoctor 26
+MrRobot 21
+TheMagic 19
+TheStrange 15
+IamMe 6
+TheLover 9
+TheLoser 8
+

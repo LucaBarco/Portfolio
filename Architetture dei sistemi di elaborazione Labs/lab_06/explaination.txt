@@ -1,0 +1,8 @@
+
+Supponiamo che i campioni siano stati codificati con 12 bit --> 12 bit senza segno --> 2^12-1=4095 
+Se avessi nella sinusoide 4095 avrei il volume max (100%) -> qui non c'è -> devo scoprire il volume della sinusoide -> 1023 pari a 1/4 di 4095 -> la nota ha un volume del 25%
+
+Ristrasmettiamo la nota cambiando volume e codifica -> da 12 a 10 bit -> volume max passi al 50% e da esprimere su 10 bit
+10 bit -> 2^10-1 VOLUME MAX (100%) -> il 50% sarà 2^10/2-> 2^9 -> per avere questi numeri nella sinusoide devo moltiplicare o dividere per qualcosa (da trovare)
+
+->(secondo me) scalare i valori in modo che siano rappresentabili su 10 bit e tali per cui il volume sia pari al 50% del massimo che si avrebbe con 10 bit

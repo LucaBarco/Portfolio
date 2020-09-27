@@ -1,0 +1,36 @@
+.vheight-100 {
+    min-height: 100vh;
+}
+
+.below-nav {
+    padding-top: 5rem;
+}
+#table{
+    padding-top: 100px;
+}
+img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    }
+.tableHeader{
+    background-color: #007bff;
+    color: white;
+}
+.headerLinks{
+    
+    color:white;
+    padding-right: 30px;
+}
+.headerUsername{
+    
+    color:yellow;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.bi-people-circle{
+    color:black ;
+    margin-top:5px;
+}
+.summaryBooking{
+    color:red;
+}

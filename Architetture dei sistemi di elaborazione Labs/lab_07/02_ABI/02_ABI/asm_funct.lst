@@ -1,0 +1,90 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000         
+    3 00000000                 AREA             asm_functions, CODE, READONLY
+    4 00000000                 EXPORT           average
+    5 00000000         average
+    6 00000000         ; save current SP for a faster access 
+    7 00000000         ; to parameters in the stack
+    8 00000000 46EC            MOV              r12, sp
+    9 00000002         ; save volatile registers
+   10 00000002 E92D 4DF0       STMFD            sp!,{r4-r8,r10-r11,lr}
+   11 00000006         ; extract argument 1 and 2 into R1 and R2
+   12 00000006         
+   13 00000006 460D            MOV              r5,r1
+   14 00000008 F04F 0400       MOV              r4,#0
+   15 0000000C F1A0 0004       SUB              r0,r0,#4
+   16 00000010 F04F 0601       MOV              r6,#1
+   17 00000014 2900            CMP              r1, #0
+   18 00000016 D102            BNE              loop
+   19 00000018 F04F 0500       MOV              r5,#0
+   20 0000001C E00B            B                end
+   21 0000001E         
+   22 0000001E F850 3F04 
+                       loop    LDR              r3, [r0, #4]!
+   23 00000022 191C            ADDS             r4,r3,r4
+   24 00000024 BF68 2600       MOVVS            r6,#0
+   25 00000028 1E6D            SUBS             r5,r5,#1
+   26 0000002A D1F8            BNE              loop
+   27 0000002C         
+   28 0000002C 2E00            CMP              r6,#0
+   29 0000002E BF14 FBB4 
+              F5F1             UDIVNE           r5,r4,r1
+   30 00000034 2500            MOVEQ            r5,#0
+   31 00000036         
+   32 00000036         ; setup a value for R0 to return
+   33 00000036 4628    end     MOV              r0, r5
+   34 00000038         ; restore volatile registers
+   35 00000038 E8BD 8DF0       LDMFD            sp!,{r4-r8,r10-r11,pc}
+   36 0000003C         
+   37 0000003C                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\asm_funct.d -o.\asm_funct.o -IC:\Keil_v5\ARM\RV31\INC -IC:\Keil_
+v5\ARM\CMSIS\Include -IC:\Keil_v5\ARM\INC\NXP\LPC17xx --predefine="__EVAL SETA 
+1" --predefine="__UVISION_VERSION SETA 529" --list=.\asm_funct.lst ASM_funct.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+asm_functions 00000000
+
+Symbol: asm_functions
+   Definitions
+      At line 3 in file ASM_funct.s
+   Uses
+      None
+Comment: asm_functions unused
+average 00000000
+
+Symbol: average
+   Definitions
+      At line 5 in file ASM_funct.s
+   Uses
+      At line 4 in file ASM_funct.s
+Comment: average used once
+end 00000036
+
+Symbol: end
+   Definitions
+      At line 33 in file ASM_funct.s
+   Uses
+      At line 20 in file ASM_funct.s
+Comment: end used once
+loop 0000001E
+
+Symbol: loop
+   Definitions
+      At line 22 in file ASM_funct.s
+   Uses
+      At line 18 in file ASM_funct.s
+      At line 26 in file ASM_funct.s
+
+4 symbols
+336 symbols in table

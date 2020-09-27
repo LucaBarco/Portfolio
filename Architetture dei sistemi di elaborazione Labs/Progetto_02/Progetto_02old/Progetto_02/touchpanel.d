@@ -1,0 +1,9 @@
+.\touchpanel.o: TouchPanel\TouchPanel.c
+.\touchpanel.o: TouchPanel\../GLCD/GLCD.h
+.\touchpanel.o: C:\Keil_v5\ARM\INC\NXP\LPC17xx\LPC17xx.h
+.\touchpanel.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\touchpanel.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\touchpanel.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\touchpanel.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\touchpanel.o: C:\Keil_v5\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+.\touchpanel.o: TouchPanel\../TouchPanel/TouchPanel.h
